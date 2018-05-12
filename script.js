@@ -52,7 +52,7 @@ var MoviesList = React.createClass({
 		id: React.PropTypes.number.isRequired,
 	},
 	render: function() {
-		return React.createElement('li', {key: this.props.id});
+		return React.createElement('li', {}, this.props.id);
 	}
 });
 
